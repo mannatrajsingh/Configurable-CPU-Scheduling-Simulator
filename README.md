@@ -33,24 +33,24 @@ A configurable CPU scheduling simulator written in C that implements and analyze
 
 ## Project Structure
 
-.
-├── main.c                         # Command-line interface and control logic
-├── scheduler.h                    # Scheduler function declarations
-├── scheduler_fcfs.c               # FCFS scheduling implementation
-├── scheduler_sjf.c                # Non-preemptive SJF scheduling
-├── scheduler_sjf_preemptive.c     # Preemptive SJF (SRTF)
-├── scheduler_priority.c           # Priority scheduling
-├── scheduler_rr.c                 # Round Robin scheduling
-├── metrics.c                      # Waiting time, turnaround time, fairness, starvation
-├── metrics.h
-├── gantt.c                        # Gantt chart visualization
-├── gantt.h
-├── process.h                      # Process data structure
-├── config.c                       # Global configuration (e.g., Gantt toggle)
-├── config.h
-├── processes.txt                  # Input process list
-├── Makefile
-└── scheduler                      # Compiled executable
+
+- `main.c` – Command-line interface and control logic  
+- `scheduler.h` – Scheduler function declarations  
+- `scheduler_fcfs.c` – FCFS scheduling implementation  
+- `scheduler_sjf.c` – Non-preemptive SJF scheduling  
+- `scheduler_sjf_preemptive.c` – Preemptive SJF (SRTF)  
+- `scheduler_priority.c` – Priority scheduling  
+- `scheduler_rr.c` – Round Robin scheduling  
+- `metrics.c` – Waiting time, turnaround time, fairness, starvation metrics  
+- `metrics.h`  
+- `gantt.c` – Gantt chart visualization  
+- `gantt.h`  
+- `process.h` – Process data structure  
+- `config.c` – Global configuration (e.g., Gantt toggle)  
+- `config.h`  
+- `processes.txt` – Input process list  
+- `Makefile` – Build configuration  
+- `scheduler` – Compiled executable
 
 
 
